@@ -1,0 +1,57 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/burke/Documents/research/bpCog/nhanes/reproduceSASDementiaModel.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 8 Jul 2020, 14:25:58
+{txt}
+{com}. stcox c.gcp_bl c.gcp_slope c.age i.female ib5.educ ib2.racebpcog , nohr
+
+         {txt}failure _d:  {res}deminc
+   {txt}analysis time _t:  {res}t_end
+                 {txt}id:  {res}newid
+
+{txt}Iteration 0:   log likelihood = {res}-14275.373
+{txt}Iteration 1:   log likelihood = {res}-14076.381
+{txt}Iteration 2:   log likelihood = {res}-13582.624
+{txt}Iteration 3:   log likelihood = {res}-13490.222
+{txt}Iteration 4:   log likelihood = {res}-13372.156
+{txt}Iteration 5:   log likelihood = {res}-13372.041
+{txt}Iteration 6:   log likelihood = {res}-13372.039
+{txt}Iteration 7:   log likelihood = {res}-13372.039
+{txt}Refining estimates:
+Iteration 0:   log likelihood = {res}-13372.039
+
+{txt}Cox regression -- Breslow method for ties
+
+No. of subjects = {res}      15,793                  {txt}Number of obs    =  {res}    39,139
+{txt}No. of failures = {res}       1,583
+{txt}Time at risk    = {res} 198231.9997
+                                                {txt}LR chi2({res}9{txt})       =  {res}   1806.67
+{txt}Log likelihood  =   {res}-13372.039                  {txt}Prob > chi2      =  {res}    0.0000
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          _t{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}gcp_bl {c |}{col 14}{res}{space 2}-.0754936{col 26}{space 2} .0043621{col 37}{space 1}  -17.31{col 46}{space 3}0.000{col 54}{space 4}-.0840433{col 67}{space 3} -.066944
+{txt}{space 3}gcp_slope {c |}{col 14}{res}{space 2} -.000999{col 26}{space 2} .0004758{col 37}{space 1}   -2.10{col 46}{space 3}0.036{col 54}{space 4}-.0019315{col 67}{space 3}-.0000666
+{txt}{space 9}age {c |}{col 14}{res}{space 2} .1023685{col 26}{space 2} .0031157{col 37}{space 1}   32.86{col 46}{space 3}0.000{col 54}{space 4} .0962618{col 67}{space 3} .1084752
+{txt}{space 4}1.female {c |}{col 14}{res}{space 2} .0950601{col 26}{space 2} .0509964{col 37}{space 1}    1.86{col 46}{space 3}0.062{col 54}{space 4}-.0048911{col 67}{space 3} .1950113
+{txt}{space 12} {c |}
+{space 8}educ {c |}
+{space 10}1  {c |}{col 14}{res}{space 2} .0307459{col 26}{space 2} .0992733{col 37}{space 1}    0.31{col 46}{space 3}0.757{col 54}{space 4}-.1638263{col 67}{space 3} .2253181
+{txt}{space 10}2  {c |}{col 14}{res}{space 2} .0841255{col 26}{space 2} .0855533{col 37}{space 1}    0.98{col 46}{space 3}0.325{col 54}{space 4} -.083556{col 67}{space 3} .2518069
+{txt}{space 10}3  {c |}{col 14}{res}{space 2}-.0846951{col 26}{space 2} .0660754{col 37}{space 1}   -1.28{col 46}{space 3}0.200{col 54}{space 4}-.2142006{col 67}{space 3} .0448104
+{txt}{space 10}4  {c |}{col 14}{res}{space 2}-.2263593{col 26}{space 2} .0832727{col 37}{space 1}   -2.72{col 46}{space 3}0.007{col 54}{space 4}-.3895708{col 67}{space 3}-.0631478
+{txt}{space 12} {c |}
+{space 1}1.racebpcog {c |}{col 14}{res}{space 2} .1937563{col 26}{space 2} .0747686{col 37}{space 1}    2.59{col 46}{space 3}0.010{col 54}{space 4} .0472126{col 67}{space 3}    .3403
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/burke/Documents/research/bpCog/nhanes/reproduceSASDementiaModel.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 8 Jul 2020, 14:25:59
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
